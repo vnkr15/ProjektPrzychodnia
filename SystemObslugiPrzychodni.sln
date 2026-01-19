@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11304.174 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemObslugiPrzychodni", "SystemObslugiPrzychodni\SystemObslugiPrzychodni.csproj", "{52882D04-5CB9-4024-96C7-2C57FC1498C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Przychodnia.Tests", "Przychodnia.Tests\Przychodnia.Tests.csproj", "{CC122263-9A07-491F-A894-BBF842884931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_Przychodnia", "..\GUI_Przychodnia\GUI_Przychodnia\GUI_Przychodnia.csproj", "{56BFB32A-B178-732C-9AF6-9DD9288CDED9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{CC122263-9A07-491F-A894-BBF842884931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC122263-9A07-491F-A894-BBF842884931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC122263-9A07-491F-A894-BBF842884931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BFB32A-B178-732C-9AF6-9DD9288CDED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BFB32A-B178-732C-9AF6-9DD9288CDED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BFB32A-B178-732C-9AF6-9DD9288CDED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BFB32A-B178-732C-9AF6-9DD9288CDED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E566E7D-B163-4DB3-92EB-26ACCD63F085}
 	EndGlobalSection
 EndGlobal
